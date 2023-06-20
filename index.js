@@ -8,7 +8,6 @@ var readlineSync = require('readline-sync');
 var name = "First, May I know your name please? ";
 var score = 0;
 
-
 // Welcome the player
 var ans = readlineSync.question(name);
 console.log("");
